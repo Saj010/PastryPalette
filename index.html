@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastry Palette - Pastry Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fbd3d3;
+            color: #5a2a2a;
+        }
+        header {
+            padding: 20px 20px 40px;
+            background-image: url('https://www.transparenttextures.com/patterns/sunburst.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            color: #d84b7b;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 5em;
+            letter-spacing: 2px;
+            margin: 0;
+            color: #d84b7b;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d84b7b;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f4a7c1;
+        }
+        .hero {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 12px 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Dancing Script', cursive;
+            color: #d84b7b;
+            letter-spacing: 1px;
+            line-height: 1.4;
+            text-transform: capitalize;
+        }
+        .content {
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            font-size: 2em;
+            color: #f5b0b0;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .product {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #ffe4e4;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .product:hover {
+            background-color: #f8d5d5;
+        }
+        .product h3 {
+            font-size: 1.8em;
+            color: #5a2a2a;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        footer {
+            padding: 20px;
+            background-color: #f8b6c2;
+            color: #5a2a2a;
+            text-align: center;
+            border-top: 2px solid #d84b7b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pastry Palette</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="queries.html">Queries</a>
+            <a href="orders.html">Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hero">
+            Craveworthy creations, made with love!
+        </div>
+    </header>
+
+    <section class="content" id="menu">
+        <h2>Our Signature Offerings</h2>
+        <div class="product">
+            <h3>Chocolate Croissant</h3>
+            <p>Flaky, buttery, and filled with rich chocolate.</p>
+        </div>
+        <div class="product">
+            <h3>Pancakes</h3>
+            <p>Smooth, topped with fresh fruits.</p>
+        </div>
+        <div class="product">
+            <h3>Macarons</h3>
+            <p>Colorful, delicate, and full of flavor.</p>
+        </div>
+        <div class="product">
+            <h3>Apple Pie</h3>
+            <p>Classic apple pie with a flaky crust and cinnamon filling.</p>
+        </div>
+        <div class="product">
+            <h3>Banana Pie</h3>
+            <p>Sweet and smooth banana pie topped with whipped cream.</p>
+        </div>
+        <div class="product">
+            <h3>Smoothies</h3>
+            <p>Fresh and fruity smoothies made with natural ingredients.</p>
+        </div>
+        <div class="product">
+            <h3>Oat Recipes</h3>
+            <p>Healthy oat-based pastries and snacks.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Pastry Palette</p>
+    </footer>
+</body>
+</html>
